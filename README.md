@@ -6,6 +6,9 @@ Notes on "How Linux Works" book
 A linux system has 3 main levels
 
 ```mermaid
-flowchart TD;
-    User processes; --> Linux Kernel; --> Hardware;
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
