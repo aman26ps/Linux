@@ -7,5 +7,5 @@ A linux system has 3 main levels
 
 ```mermaid
 flowchart TD;
-    User processes -- Linux Kernel -- Hardware;
+    User processes; --> Linux Kernel; --> Hardware;
 ```
