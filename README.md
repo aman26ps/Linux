@@ -7,8 +7,6 @@ A linux system has 3 main levels
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    User Processes-->Linux Kernel;
+    Linux Kernel-->Hardware;
 ```
